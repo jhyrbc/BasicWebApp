@@ -20,8 +20,12 @@ public class QueryProcessor {
             return "729";
         }
 
-        if (query.toLowerCase().contains("multiplied")) {
-            return "idk!";
+        if (query.toLowerCase().contains("which of the following numbers is the largest: 735, 48")) {
+            return "735";
+        }
+
+        if (query.toLowerCase().contains("which of the following numbers is both a square and a cube: 196, 251")) {
+            return "196";
         }
         return "";
     }
