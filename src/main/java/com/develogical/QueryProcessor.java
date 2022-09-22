@@ -19,6 +19,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what")) {
             return "idk!";
         }
+
+        if (query.toLowerCase().contains("multiplied")) {
+            return "idk!";
+        }
         return "";
     }
 }
