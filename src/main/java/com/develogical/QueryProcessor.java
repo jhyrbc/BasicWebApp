@@ -11,6 +11,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("name")) {
             return "MyTeam";
         }
+
+        if (query.toLowerCase().contains("following")) {
+            return "idk!";
+        }
         return "";
     }
 }
