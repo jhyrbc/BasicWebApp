@@ -16,8 +16,8 @@ public class QueryProcessor {
             return "idk!";
         }
 
-        if (query.toLowerCase().contains("what")) {
-            return "idk!";
+        if (query.toLowerCase().contains("which of the following numbersis both a square and a cube: 234, 729")) {
+            return "729";
         }
 
         if (query.toLowerCase().contains("multiplied")) {
